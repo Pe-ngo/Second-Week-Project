@@ -1,12 +1,22 @@
-* {
+*{
     font-family: 'Adamina', serif;
     list-style: none;
     padding: 0;
     margin: 0;
 
 }
-.topnav {
+.topnav{
     background: url(../images/moving\ 1.png);
     background-position: center;
     background-size: cover;
+    height: 600px;
+    width: 1000px;
+}
+
+.change{
+    padding-left: 70px;
+    padding-top: 15px;
+    margin-top: 50px;
+    font-size: 40px;
+    color: yellow;
 }
