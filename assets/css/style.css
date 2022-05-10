@@ -1,5 +1,5 @@
 *{
-    font-family: 'Poppins, Actor, Adamina'; 
+    font-family: 'Poppins'; 
     list-style: none;
     text-decoration: none;
     padding: 0;
@@ -10,8 +10,8 @@
     background: url(../images/moving\ 1.png);
     background-position: center;
     background-size: cover;
-    height: 600px;
-    width: 1000px;
+    height: 700px;
+    width: 100%;
     margin-bottom: 50px;
 }
 
@@ -65,14 +65,71 @@ nav ul li .logIn2{
     color: darkgray;
 }
 
-.cut{
-    margin-right: 1000px;
+.hustle .cut{
+    float: right;
+    width: 800px;
+    margin-top: -400px;
 }
 
-.hustle .cut .h1{
+.hustle .cut h1{
     position: relative;
-    font-size: 34px;
+    font-size: 30px;
     padding-top: 10px;
+}
+
+.hustle .cut h1::after{
+    content: ' ';
+    position: absolute;
+    left: 5px;
+    top: 0;
+    width: 100px;
+    height: 3px;
+    background: linear-gradient(90deg,rgba(255,165,0 , 0.9) 0%, rgba(0,0,0,0.9));
+}
+
+.hustle .cut p{
+    font-size: 17px;
+    padding-top: 6px;
+}
+
+.hustle .cut .learn{
+    background: #000;
+    height: 25px;
+    border: none;
+    border-radius: 0 5px 0 0;
+    width: 100px;
+    margin-top: 50px;
+    color: #ff0;
+}
+
+.topMovers{
+    background-color: rgb(220,220,220);
+    margin-top: 25px;
+}
+
+.moversimages{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.topMovers .Movers .titleHead{
+    font-size: 40px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    padding-top: 80px;
+    position: relative;
+} 
+
+.topMovers .Movers .titleHead::after{
+    content: ' ';
+    position: absolute;
+    left: 5px;
+    top: 8;
+    width: 100px;
+    height: 3px;
+    background: linear-gradient(90deg,rgba(255,165,0 , 0.9) 0%, rgba(0,0,0,0.9));
 }
 
 .image-one{
@@ -96,4 +153,45 @@ nav ul li .logIn2{
 
 .row1{
     
+}
+
+footer{
+    background: #141006;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+footer .tap h2{
+    margin-left: 150px;
+    padding-top: 50px;
+
+}
+footer .tap .button{
+    color: goldenrod;
+}
+
+footer .social-icons{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.social-icons a{
+    color: white;
+}
+
+.social-icons li a{
+    padding-left: 25px;
+}
+
+.column{
+    display: flex;
+    padding-left: 400px;
+    text-align: center;
+}
+
+.column1{
+    margin-left: 5px;
 }
