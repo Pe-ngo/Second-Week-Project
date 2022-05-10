@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 * {
     font-family: 'Adamina', serif;
+=======
+*{
+    font-family: 'Poppins, Actor, Adamina'; 
+>>>>>>> d836f29842159963659440dd7120221c16847cf7
     list-style: none;
     padding: 0;
     margin: 0;
@@ -27,7 +32,6 @@ li{
 }
 
 nav ul{
-
     display: flex;
     justify-content: end;
     margin-right: 100px;
@@ -40,6 +44,7 @@ nav ul li{
 
 nav ul li a{
     color: white;
+    text-decoration: none;
 }
 
 a:hover{
@@ -53,7 +58,7 @@ nav ul li button{
 }
 
 nav ul li .logIn1{
-    background-color: #ff0;
+    background-color: #FFAC12;
 }
 
 nav ul li .logIn2{
@@ -119,16 +124,15 @@ nav ul li .logIn2{
 }
 
 .moversimages{
-    display: flex;
+    margin-left: auto;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 20px;
 }
 
 .topMovers .Movers .titleHead{
     font-size: 40px;
     margin-left: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     padding-top: 80px;
     position: relative;
 } 
@@ -150,6 +154,9 @@ nav ul li .logIn2{
     background-size: cover;
 }
 
+.row1{
+    display: inline-block;
+}
 .iconz{
     width: 200px;
     display: flex;
@@ -182,23 +189,60 @@ footer .tap .button{
 footer .social-icons{
     display: flex;
     margin-left: 150px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .social-icons a{
     color: white;
 }
 
-.social-icons li a{
+footer .social-icons .fa-facebook{
     padding-left: 25px;
+    padding: 50px;
+}
+
+footer .social-icons .fa-twitter{
+    padding-left: 25px;
+    padding-top: 50px;
+}
+
+footer .social-icons .fa-instagram{
+    padding-left: 25px;
+    padding: 50px;
 }
 
 .column{
     display: flex;
     padding-left: 400px;
-    text-align: center;
+    justify-content: space-around;
+    padding-top: -50px;
 }
 
 .column1{
-    margin-left: 5px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+
+.column1 li a{
+    color: white;
+    font-size: 10px;
+}
+
+.column2{
+    padding-bottom: 50px;
+}
+
+.column2 li a{
+    color: white;
+    font-size: 10px;
+}
+
+.column3{
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+.column3 li a{
+    color: white;
+    font-size: 10px;
 }
