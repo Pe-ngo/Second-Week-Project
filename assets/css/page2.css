@@ -39,3 +39,24 @@ nav ul li button{
     width: 100px;
 }
 
+.headerSection .header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.house{
+    margin-left: 100px;
+}
+
+.house h5{
+    font-size: 10px;
+}
+
+.dollars{
+    margin-right: 200px;
+}
+
+.dollars h5{
+    font-size: 10px;
+}
