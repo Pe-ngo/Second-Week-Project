@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     font-family: 'Adamina', serif;
     list-style: none;
@@ -25,21 +26,215 @@ li{
     padding: 5px;
     margin-right: 15px;
     
+=======
+*{
+    font-family: 'Poppins'; 
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+
+}
+.topnav{
+    background: url(../images/moving\ 1.png);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+nav ul{
+
+    display: flex;
+    justify-content: end;
+    margin-right: 100px;
+}
+
+nav ul li{
+    padding: 25px;
+    margin-top: 35px;
+}
+
+nav ul li a{
+    color: white;
+}
+
+a:hover{
+    color: #ff0;
+}
+
+nav ul li button{
+    width: 50px;
+    height: 15px;
+    border: none;
+}
+
+nav ul li .logIn1{
+    background-color: #ff0;
+}
+
+nav ul li .logIn2{
+    background-color: black;
+>>>>>>> f5f5d2b384174bf5a004088febb8796275294587
 }
 
 .change{
     padding-left: 70px;
     padding-top: 15px;
+<<<<<<< HEAD
     font-size: 40px;
     color: yellow;
     
+=======
+    margin-top: 50px;
+    font-size: 40px;
+    color: #ff0;
+>>>>>>> f5f5d2b384174bf5a004088febb8796275294587
 }
 
 .roof{
     padding-left: 70px;
     padding-top: 15px;
+<<<<<<< HEAD
     margin-top: 30px;
     font-size: 20px;
     color: darkgrey;
     
+=======
+    margin-top: 35px;
+    font-size: 25px;
+    color: darkgray;
+}
+
+.hustle .cut{
+    float: right;
+    width: 800px;
+    margin-top: -400px;
+}
+
+.hustle .cut h1{
+    position: relative;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.hustle .cut h1::after{
+    content: ' ';
+    position: absolute;
+    left: 5px;
+    top: 0;
+    width: 100px;
+    height: 3px;
+    background: linear-gradient(90deg,rgba(255,165,0 , 0.9) 0%, rgba(0,0,0,0.9));
+}
+
+.hustle .cut p{
+    font-size: 17px;
+    padding-top: 6px;
+}
+
+.hustle .cut .learn{
+    background: #000;
+    height: 25px;
+    border: none;
+    border-radius: 0 5px 0 0;
+    width: 100px;
+    margin-top: 50px;
+    color: #ff0;
+}
+
+.topMovers{
+    background-color: rgb(220,220,220);
+    margin-top: 25px;
+}
+
+.moversimages{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.topMovers .Movers .titleHead{
+    font-size: 40px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    padding-top: 80px;
+    position: relative;
+} 
+
+.topMovers .Movers .titleHead::after{
+    content: ' ';
+    position: absolute;
+    left: 5px;
+    top: 8;
+    width: 100px;
+    height: 3px;
+    background: linear-gradient(90deg,rgba(255,165,0 , 0.9) 0%, rgba(0,0,0,0.9));
+}
+
+.image-one{
+    width: 200px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+}
+
+.iconz{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconz{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.row1{
+    
+}
+
+footer{
+    background: #141006;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+footer .tap h2{
+    margin-left: 150px;
+    padding-top: 50px;
+
+}
+footer .tap .button{
+    color: goldenrod;
+}
+
+footer .social-icons{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.social-icons a{
+    color: white;
+}
+
+.social-icons li a{
+    padding-left: 25px;
+}
+
+.column{
+    display: flex;
+    padding-left: 400px;
+    text-align: center;
+}
+
+.column1{
+    margin-left: 5px;
+>>>>>>> f5f5d2b384174bf5a004088febb8796275294587
 }
