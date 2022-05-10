@@ -1,6 +1,7 @@
 *{
     font-family: 'Poppins, Actor, Adamina';
     list-style: none;
+    text-decoration: none;
     padding: 0;
     margin: 0;
 }
@@ -33,7 +34,8 @@ nav ul{
 }
 
 nav ul li{
-    padding: 25px;
+    float: right;
+    padding-left: 25px;
     margin-top: 35px;
 }
 
@@ -119,9 +121,7 @@ nav ul li .logIn2{
 }
 
 .moversimages{
-    margin-left: auto;
-    flex-wrap: wrap;
-    align-items: center;
+    display: flex;
 }
 
 .topMovers .Movers .titleHead{
@@ -209,12 +209,10 @@ footer .social-icons .fa-instagram{
 .column{
     display: flex;
     padding-left: 400px;
-    justify-content: space-around;
-    padding-top: -50px;
+    justify-content: right;
 }
 
 .column1{
-    padding-left: 20px;
     padding-bottom: 50px;
 }
 
@@ -233,7 +231,6 @@ footer .social-icons .fa-instagram{
 }
 
 .column3{
-    padding-right: 20px;
     padding-bottom: 50px;
 }
 
