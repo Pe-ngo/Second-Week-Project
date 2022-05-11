@@ -66,6 +66,106 @@ nav ul li button{
 }
 
 .fit{
-    display: flex;
     padding-top: 50px;
 }
+
+.interior{
+    padding-left: 200px;
+}
+
+.fit .profile{
+    margin-left: 750px;
+}
+
+.rectangleImages{
+    padding-left: 200px;
+    margin-top: -35px;
+}
+
+.detailportion{
+    padding: 15px;
+    padding-left: 200px;
+}
+
+.dip{
+    padding: 15px;
+    padding-left: 200px;
+}
+
+.future{
+    padding: 15px;
+    padding-left: 200px;
+}
+
+.similar{
+    padding: 15px;
+    padding-left: 200px;
+}
+
+.malto{
+    padding: 15px;
+    padding-left: 200px;
+}
+
+footer{
+    background: #141006;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+footer .foot .make{
+    margin-left: 150px;
+    padding-top: 50px;
+}
+
+.typo{
+    padding-left: 30px;
+    color: #FFAC12;
+}
+  
+.work button{
+    background-color: goldenrod;
+    float: right;
+    border: none;
+}
+
+.work button{
+    margin-right: 50px;
+    background-color: #FFAC12;
+    height: 25px;
+    border-radius: 0 10px 0 0;
+    width: 100px;
+}
+
+.colum{
+    display: flex;
+    padding-right: 50px;
+    justify-content: right;
+}
+
+.colum{
+    margin-top: 50px;
+    padding-bottom: 15px;
+}
+
+.colum1{
+    padding: 5px;
+}
+
+.colum .colum1 h5{
+    margin-top: 5px;
+}
+
+footer .socialMedia{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.socialMedia a{
+    color: white;
+}
+
+
